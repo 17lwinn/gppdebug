@@ -1,9 +1,21 @@
 {
-  "name": "name",
-  "scripts":{
-    "start": "npm install chii && chii start -p 8000"
-  }
-  "dependencies": {
-    "chii": "0.6.6",
+  "name": "glitchypastepen",
+  "version": "1.0.0",
+  "description": "Create simple front-end projects (mainly with HTML, CSS and JS) using an online code editor with instant hosting.",
+  "scripts": {
+    "start": "chii start -p 8000"
   },
+  "dependencies": {
+    "chii": "^0.6.6"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/khalby786/GlitchyPastePen"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
