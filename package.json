@@ -1,0 +1,6 @@
+{
+  "name": "name",
+  "scripts":{
+    "start": "npm install chii && chii start -p 8000"
+  }
+}
